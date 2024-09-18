@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="mus.css"> <!-- Link to CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sahil raj , a passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy creating user-friendly websites and applications.</p>
+        <p>Here is a brief overview of my background:</p>
+        <ul>
+            <li>Experience: since i did'nt work at any where.</li>
+            <li>Education: currently i am doing my graduation from uttranchal university .</li>
+            <li>Interests: i am intrested to seek new ideas and how can i create by myself !</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of your project goes here. Explain what technologies you used and what the project accomplishes.</p>
+            <a href="#">View Project</a> <!-- Link to your project -->
+        </div>
+
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of your project goes here. Explain what technologies you used and what the project accomplishes.</p>
+            <a href="#">View Project</a> <!-- Link to your project -->
+        </div>
+
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Success message -->
+        <div id="successMessage" style="display:none;">Thank you for your message!</div>
+    </section>
+
+    <footer>
+        &copy; 2024 Portfolio. All rights reserved.
+    </footer>
+
+    <script src="mus.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
